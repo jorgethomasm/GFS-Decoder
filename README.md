@@ -1,4 +1,5 @@
-# Global Forecast System (GFS) Decoder (by jorgethomasm)
+# Global Forecast System (GFS) Decoder 
+## by Jorge A. Thomas
 
 The GFS is a Numeric Weather Prediction (NWP) model developed by the National Centers for Environmental Prediction (NCEP).
 The GFS is publicly available.
@@ -7,7 +8,9 @@ The GFS is publicly available.
 https://en.wikipedia.org/wiki/Global_Forecast_System
 
 This software manages the download and decoding (Degrib) of the Grib-formatted files that contain Messages (MSGs) or weather variables forecasted for the next hours, depending on the desired forecast horizon (FH).
-If the forecast horizon is 24 hours, then 24 files will be downloaded, decoded and the variables of interest will be extracted and saved in a .dat file with table format. (Actually an US_en-formated .csv file)
+
+If the forecast horizon is 24 hours, then 24 files will be downloaded, decoded and the variables of interest will be extracted and saved in a .dat file with table format. This file is actually an US_en-formated .csv one.
+
 Each files is approximately 200 MB. As soon as one is downloaded and processed, the file is deleted in order to optimise hard drive space.
 
 ## Current selected MSGs with energy management purposes:
@@ -44,7 +47,8 @@ In order to update the forecast, run this program in the following daily schedul
 Note: Due to heavy traffic, the server will conveniently limit the download speed (server throttling).
 Therefore, the whole bandwidth of your connection will not be occupied.
 
-This sofware includes and uses the command line version of degrib available in https://vlab.noaa.gov/web/mdl/degrib-download 
+This sofware includes and uses the command line version of degrib.exe application available on:
+https://vlab.noaa.gov/web/mdl/degrib-download 
 
 ## Contact:
 jorgethomasm@ieee.org
