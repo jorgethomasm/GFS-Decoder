@@ -30,7 +30,7 @@ TCDC_ATM  |- Entire atmosphere Total Cloud Coverage [%] |- @row 637
 CRAIN     |- Categorical Rain [-]				        |- @row 604 
 														 					   
 												
-### Invetory available on: https://www.nco.ncep.noaa.gov/pmb/products/gfs/gfs.t00z.pgrb2.0p25.f003.shtml
+### Inventory available on: https://www.nco.ncep.noaa.gov/pmb/products/gfs/gfs.t00z.pgrb2.0p25.f003.shtml
 
 ## Runtime Schedule:
 The update cycle of the files in the server is every 6 hours (model cycle runtime), i.e. 00:00, 06:00, 12:00 and 18:00 UTC 
